@@ -1,0 +1,55 @@
+  items: [{
+                        icon: 'fas fa-shipping-fast',
+                        text: 'Pedido'
+                    },
+                    {
+                        icon: 'fas fa-plus-square',
+                        text: 'Nuevo Pedido'
+                    },
+                    {
+                        icon: 'fa fa-edit',
+                        text: 'Modificar Pedido'
+                    },
+                    {
+                        icon: 'keyboard_arrow_up',
+                        'icon-alt': 'keyboard_arrow_down',
+                        text: 'Reportes',
+                        model: true,
+                        children: [{
+                            icon: 'fas fa-file-invoice',
+                            text: 'Entrega de Estatus'
+                        },
+                        {
+                            icon: 'fas fa-file-invoice',
+                            text: 'Por Cliente'
+                        },
+                        {
+                            icon: 'fas fa-file-invoice',
+                            text: 'Repartidor'
+                        },
+                        {
+                            icon: 'fas fa-file-invoice',
+                            text: 'Todos Los Clientes'
+                        }
+                        ]
+                    },
+                    {
+                        icon: 'keyboard_arrow_up',
+                        'icon-alt': 'keyboard_arrow_down',
+                        text: 'Catalogs',
+                        model: false,
+                        children: [{
+                            icon: 'fas fa-tools',
+                            text: 'Colonia'
+                        },
+                            {
+                            icon: 'fas fa-tools',
+                            text: 'Repartidores'
+                        },
+                            {
+                            icon: 'fas fa-tools',
+                            text: 'Clientes'
+                        }                            
+                        ]
+                    }                    
+                ]

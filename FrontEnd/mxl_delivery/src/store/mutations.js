@@ -16,5 +16,11 @@ export default {
     state.sdialog.titulobarra = values.titulobarra;
     state.sdialog.mensaje = values.mensaje;
     state.sdialog.show = values.show;
+  },
+  MENU_SET(state,value){
+    state.menu=value.menus;
+  },
+  set_seleccionadoGrid(state,value){
+    state.seleccionadoGrid = value;
   }
 };

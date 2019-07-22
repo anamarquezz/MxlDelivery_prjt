@@ -28,6 +28,11 @@ export default {
     }) {
         try {
             var esto = this;
+
+            Vue.http.get('http://192.168.8.100/mxldelivery/menus/opciones.json').then(({body}) =>{
+                commit('MENU_SET',body);                
+            })
+
         } catch (e) {
             commit('set_dialog', {
                 is: 'error',
